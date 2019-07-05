@@ -9,13 +9,13 @@ PipeTaxon exposes the ncbi taxonomy database as a REST API. It's intended to be 
 We have packaged pipetaxon as a docker container, you should be able to get it up effortless by simply running the following commands:
 
 
- > docker pull voorloop/pipetaxon
+ > docker pull dock/pipetaxon
  
- > docker run -p **80**:8000 voorloop/pipetaxon
+ > docker run -p **80**:8000 dock/pipetaxon
  
 if the default HTTP port is already in use or you don't have permission you can simply change it for any other port:
  
- > docker run -p **81**:8000 voorloop/pipetaxon
+ > docker run -p **81**:8000 dock/pipetaxon
 
 Then go ahead to your browser and type:
 
@@ -53,7 +53,7 @@ sudo apt-get install python3-venv
 
 *clone this repository* 
  ```
- git clone https://github.com/voorloopnul/pipetaxon.git
+ git clone https://github.com/simba999/pipetaxon.git
  ```
 
 *enter project folder*
@@ -144,8 +144,3 @@ Them run again the build process:
  ```
  ./manage.py build_database --lineage ~/data/
  ``` 
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
